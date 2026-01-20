@@ -1,0 +1,6 @@
+name: MedMnist_SSL
+K: 1
+temperature: 0.1
+m: 0.9
+gaussian_factor: 0.1
+mode: ""

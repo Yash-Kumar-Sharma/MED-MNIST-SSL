@@ -1,0 +1,21 @@
+name: TissueMnist
+data_dir: /home/gen/yash/OurData/data/
+save_path: /home/gen/yash/work/Result_zip
+filepath: results/MeanWeights
+#weight_path: /home/gen/yash/work/Result_zip/SSL-Vision/lightning/data/Cifar10/exponential_imbalanced_cifar10_weights.json
+crop_max: 1
+image_size: 64
+
+imbalance: False
+imbalance_factor: 0.01
+imbalance_type: exp
+sample_size: 1
+max_samples: 5000
+num_classes: 8
+drop_last: False
+one_color_channel: False
+convert_channel: True
+#mean: [0.5, 0.5, 0.5]
+#std: [0.5, 0.5, 0.5]
+mean: [0.1021, 0.1021, 0.1021]
+std: [0.0977, 0.0977, 0.0977]

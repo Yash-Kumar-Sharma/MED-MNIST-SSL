@@ -1,0 +1,10 @@
+defaults:
+  - _self_
+  - dataset: DermaMnist
+  - model: MedMnist_SSL
+  - backbone: resnet50
+  - training: pretraining
+  - post_training: linear_evaluation
+  - feature: feature
+
+project_name: Feature Manipulations

@@ -1,0 +1,9 @@
+max_epochs: 100
+devices: [0]
+checkpoint_toload: 76
+steps: 49
+lr: 0.005
+labels_portion: 1.0
+weight_decay: 0
+warmup_epochs: 10
+warmup_lr: 0.030
